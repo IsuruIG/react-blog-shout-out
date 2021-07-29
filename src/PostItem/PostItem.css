@@ -1,10 +1,14 @@
 .post-item {
-    margin: 1rem;
-    width: calc(45% - 2rem);
+    margin: 50px;
+    margin-left: 25px;
+    padding: 1rem;
+    /* width: calc(98% - 2rem); */
+    width: 97%;
     min-width: 17.5rem;
+    height: 10rem;
   }
   
-  .post-item a {
+  .post-item h1 {
     display: flex;
     align-items: center;
     width: 100%;
@@ -17,11 +21,12 @@
   
   .post-item a:hover,
   .post-item a:active {
-    background: #ffd900;
+    background: #4d4203;
   }
   
   .card.post-item__content {
-    padding: 0;
+    margin: 20px;
+    padding: 1.5rem;
   }
   
   .post-item__image {
@@ -29,19 +34,36 @@
     height: 4rem;
     margin-right: 1rem;
   }
+
+  .post-item__info {
+    background: #171625;
+  }
+
+  .post-item__info p {
+    padding: 1rem;
+    background: rgb(0, 26, 255);
+  }
+
   
   .post-item__info h2 {
     font-size: 1.5rem;
     margin: 0 0 0.5rem 0;
     font-weight: normal;
-    color: #ffd900;
+    color: #2e2700;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
   }
   
   .post-item:hover h2,
   .post-item:active h2,
   .post-item:hover h3,
   .post-item:active h3 {
-    color: #292929;
+    color: #af9e03;
   }
   
   .post-item__info h3 {

@@ -7,8 +7,6 @@ const PostItem = (props) => {
   return (
     <li className="post-item">
       <Card className="post-item__content">
-          <div className="post-item__image">
-          </div>
           <div className="post-item__info">
             <h2>{props.title}</h2>
             <p>
