@@ -16,7 +16,7 @@
     text-decoration: none;
     padding: 1rem;
     color: white;
-    background: #292929;
+    background: #002d57;
   }
   
   .post-item a:hover,
@@ -41,15 +41,14 @@
 
   .post-item__info p {
     padding: 1rem;
-    background: rgb(0, 26, 255);
+    background: rgb(66, 170, 240);
   }
 
   
   .post-item__info h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0 0 0.5rem 0;
     font-weight: normal;
-    color: #2e2700;
     display: flex;
     align-items: center;
     width: 100%;
